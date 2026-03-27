@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_yarnpkg_docusaurus=self.webpackChunk_yarnpkg_docusaurus||[]).push([[8928],{22351:(u,r,s)=>{s.r(r),s.d(r,{default:()=>e});var a=s(48231),n=s(8662);function e(){return(0,a.jsx)(n.rd,{to:"/configuration/manifest"})}}}]);

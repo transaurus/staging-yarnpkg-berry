@@ -1,0 +1,4 @@
+/*.vsix
+
+# The license is automatically synced before packaging
+/LICENSE.md

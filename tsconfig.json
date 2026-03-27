@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    // Typechecking
+    "target": "ES2021",
+    "lib": ["ES2022"],
+    "strict": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "useUnknownInCatchVariables": false,
+    "noImplicitReturns": true,
+
+    // Compat
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "experimentalDecorators": true,
+
+    // Resolution
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+
+    // Output
+    "module": "commonjs",
+    "declaration": true,
+    "importHelpers": true,
+    "alwaysStrict": false,
+    "jsx": "react",
+    "noEmit": true,
+  },
+  "exclude": [
+    ".pnp.cjs",
+    "packages/*/lib",
+    "packages/*/bin",
+    "packages/*/bundles",
+    "packages/yarnpkg-doctor/fixtures",
+    "packages/gatsby",
+    "packages/docusaurus",
+    "packages/docusaurus/build",
+    "packages/yarnpkg-libzip/artifacts",
+    "packages/yarnpkg-pnp/sources/hook.raw.js"
+  ]
+}

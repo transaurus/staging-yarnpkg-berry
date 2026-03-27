@@ -1,0 +1,46 @@
+{
+  "title": {
+    "message": "Yarn",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Yarn Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Get Started": {
+    "message": "Get Started",
+    "description": "Navbar item with label Get Started"
+  },
+  "item.label.Features": {
+    "message": "Features",
+    "description": "Navbar item with label Features"
+  },
+  "item.label.CLI": {
+    "message": "CLI",
+    "description": "Navbar item with label CLI"
+  },
+  "item.label.Configuration": {
+    "message": "Configuration",
+    "description": "Navbar item with label Configuration"
+  },
+  "item.label.Advanced": {
+    "message": "Advanced",
+    "description": "Navbar item with label Advanced"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.API": {
+    "message": "API",
+    "description": "Navbar item with label API"
+  },
+  "item.label.Discord": {
+    "message": "Discord",
+    "description": "Navbar item with label Discord"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

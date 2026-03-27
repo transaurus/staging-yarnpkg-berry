@@ -1,0 +1,8 @@
+# Security: Could otherwise change the checked-in artifacts
+/packages/*/bin/**/*.js @arcanis
+
+# Security: Could otherwise leak secrets
+/.github/workflows/* @arcanis
+
+# Security: Could otherwise remove the security rules
+/CODEOWNERS @arcanis

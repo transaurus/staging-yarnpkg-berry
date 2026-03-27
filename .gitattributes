@@ -1,0 +1,24 @@
+# This line does two things:
+# - forces git to use LF
+# - tell git to guess whether files are text or binary
+*                       text=auto eol=lf
+
+# Mark generated files as binary to prevent git from trying to merge them
+/.pnp.*                                                 binary linguist-generated
+packages/yarnpkg-pnp/sources/esm-loader/built-loader.js binary linguist-generated
+packages/yarnpkg-pnp/sources/hook.js                    binary linguist-generated
+packages/yarnpkg-core/sources/worker-zip/index.js       binary linguist-generated
+packages/yarnpkg-libzip/sources/libzipAsync.js          binary linguist-generated
+packages/yarnpkg-libzip/sources/libzipSync.js           binary linguist-generated
+
+# Set the language for these files to json5 to ensure GitHub doesn't show the comments as errors
+/.vscode/*.json         linguist-language=JSON5
+
+# Hide .yarn and docs from GitHub's language detection
+/.yarn/**               linguist-vendored
+/packages/docusaurus/** linguist-documentation
+
+# Mark built javascript binaries as generated
+# Without this, the repo is marked as >90% javascript, while most code is actually typescript
+/packages/*/bin/**/*.js linguist-generated
+/packages/*/lib/*.js    linguist-generated

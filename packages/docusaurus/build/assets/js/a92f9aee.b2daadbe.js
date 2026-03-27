@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_yarnpkg_docusaurus=self.webpackChunk_yarnpkg_docusaurus||[]).push([[21],{81005:u=>{u.exports=JSON.parse('{"name":"docusaurus-plugin-yarn-cli-docs","id":"default"}')}}]);

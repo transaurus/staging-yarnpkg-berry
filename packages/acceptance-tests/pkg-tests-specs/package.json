@@ -1,0 +1,31 @@
+{
+  "name": "pkg-tests-specs",
+  "private": true,
+  "license": "BSD-2-Clause",
+  "main": "./sources/index.js",
+  "exports": {
+    ".": "./sources/index.ts",
+    "./package.json": "./package.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yarnpkg/berry.git",
+    "directory": "packages/acceptance-tests/pkg-tests-specs"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.136",
+    "@yarnpkg/cli": "workspace:^",
+    "@yarnpkg/core": "workspace:^",
+    "@yarnpkg/fslib": "workspace:^",
+    "@yarnpkg/monorepo": "workspace:^",
+    "@yarnpkg/parsers": "workspace:^",
+    "@yarnpkg/pnp": "workspace:^",
+    "es-toolkit": "^1.39.7",
+    "pkg-tests-core": "workspace:^",
+    "tar": "^7.5.3",
+    "tslib": "^2.4.0"
+  },
+  "engines": {
+    "node": ">=18.12.0"
+  }
+}
