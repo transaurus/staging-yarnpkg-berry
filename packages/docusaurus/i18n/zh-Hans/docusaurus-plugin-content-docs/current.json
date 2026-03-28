@@ -1,0 +1,38 @@
+{
+  "version.label": {
+    "message": "master (4.13.0-dev)",
+    "description": "The label for version current"
+  },
+  "sidebar.gettingStarted.category.Starting with Yarn": {
+    "message": "Starting with Yarn",
+    "description": "The label for category Starting with Yarn in sidebar gettingStarted"
+  },
+  "sidebar.gettingStarted.category.Migrating from 1.x / npm": {
+    "message": "Migrating from 1.x / npm",
+    "description": "The label for category Migrating from 1.x / npm in sidebar gettingStarted"
+  },
+  "sidebar.gettingStarted.category.Good to Know": {
+    "message": "Good to Know",
+    "description": "The label for category Good to Know in sidebar gettingStarted"
+  },
+  "sidebar.advanced.category.General reference": {
+    "message": "General reference",
+    "description": "The label for category General reference in sidebar advanced"
+  },
+  "sidebar.advanced.category.Protocols": {
+    "message": "Protocols",
+    "description": "The label for category Protocols in sidebar advanced"
+  },
+  "sidebar.advanced.category.Package management": {
+    "message": "Package management",
+    "description": "The label for category Package management in sidebar advanced"
+  },
+  "sidebar.advanced.category.Working with Yarn PnP": {
+    "message": "Working with Yarn PnP",
+    "description": "The label for category Working with Yarn PnP in sidebar advanced"
+  },
+  "sidebar.advanced.category.Working with Yarn": {
+    "message": "Working with Yarn",
+    "description": "The label for category Working with Yarn in sidebar advanced"
+  }
+}

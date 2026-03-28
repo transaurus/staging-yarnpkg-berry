@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_yarnpkg_docusaurus=self.webpackChunk_yarnpkg_docusaurus||[]).push([[8150],{782:e=>{e.exports=JSON.parse('{"banner":"","breadcrumbs":true,"gitRefName":"master","minimal":false,"pluginId":"default","scopes":[]}')}}]);

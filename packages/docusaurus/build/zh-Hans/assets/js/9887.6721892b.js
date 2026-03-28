@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_yarnpkg_docusaurus=self.webpackChunk_yarnpkg_docusaurus||[]).push([[9887],{79887:(u,s,a)=>{a.r(s)}}]);
